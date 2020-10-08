@@ -1,14 +1,13 @@
 //
-//  Day16UITests.swift
-//  Day16UITests
+//  Project1UITests.swift
+//  Project1UITests
 //
-//  Created by Chris Harding on 9/15/20.
-//  Copyright © 2020 Chris Harding. All rights reserved.
+//  Created by Chris Harding on 10/7/20.
 //
 
 import XCTest
 
-class Day16UITests: XCTestCase {
+class Project1UITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -35,7 +34,7 @@ class Day16UITests: XCTestCase {
     func testLaunchPerformance() throws {
         if #available(macOS 10.15, iOS 13.0, tvOS 13.0, *) {
             // This measures how long it takes to launch your application.
-            measure(metrics: [XCTOSSignpostMetric.applicationLaunch]) {
+            measure(metrics: [XCTApplicationLaunchMetric()]) {
                 XCUIApplication().launch()
             }
         }

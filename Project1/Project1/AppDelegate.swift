@@ -1,14 +1,13 @@
 //
 //  AppDelegate.swift
-//  Day16
+//  Project1
 //
-//  Created by Chris Harding on 9/15/20.
-//  Copyright © 2020 Chris Harding. All rights reserved.
+//  Created by Chris Harding on 10/7/20.
 //
 
 import UIKit
 
-@UIApplicationMain
+@main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
